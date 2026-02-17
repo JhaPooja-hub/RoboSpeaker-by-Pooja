@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard | Club Connect</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>Club Connect</h2>
+  <a href="#">Dashboard</a>
+  <a href="#">My Clubs</a>
+  <a href="#">Events</a>
+</div>
+
+<div class="main">
+  <h1>Live College Events</h1>
+
+  <div class="events" id="events">
+    <!-- Events will load here -->
+  </div>
+</div>
+
+<div class="chatbot">
+  <div class="chat-header">Ask ClubBot 🤖</div>
+  <div class="chat-body" id="chat"></div>
+  <input placeholder="Ask something..." onkeydown="sendMessage(event)">
+</div>
+
+<script src="js/dashboard.js"></script>
+<script src="js/chatbot.js"></script>
+</body>
+</html>
